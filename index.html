@@ -5,33 +5,34 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
     <title>DAA</title>
 </head>
 <body>
     <div class="container">
         <h1>Directorate of Alumni Affairs</h1>
-    <form>
-        <table>
+    <form class="color">
+        <table a>
             <tr>
-                <td><input type="text" id="name" name="name" placeholder="Name" class="input-box"><br><br></td>
+                <td><input type="text" id="name" name="name" placeholder="Name" class="input-box" value required><br><br></td>
             </tr>
 
             <tr>
-                <td><input type="text" id="reg_num" name="reg_num" placeholder="Registration Number" class="input-box"><br><br></td>
+                <td><input type="text" id="reg_num" name="reg_num" placeholder="Registration Number" class="input-box" value required><br><br></td>
             </tr>
 
             <tr>
-                <td><select id="year" name="year" class="input-box">
-                <option value="yos">Year of Study</option>
-                <option value="first">First Year</option>
-                <option value="second">Second Year</option>
-                <option value="third">Third Year</option>
-                <option value="fourth">Fourth Year</option>
+                <td><select id="year" name="year" class="input-box" value required>
+                <option value="yos">Year of Study </option>
+                <option value="first">I Year</option>
+                <option value="second">II Year</option>
+                <option value="third">III Year</option>
+                <option value="fourth">IV Year</option>
             </select><br><br></td>
             </tr>
 
             <tr>
-                <td><input type="text" id="domain" name="domain" placeholder="Domain you belong to" class="input-box"><br><br></td>
+                <td><input type="text" id="domain" name="domain" placeholder="Domain you belong to" class="input-box" value required><br><br></td>
             </tr>
 
             <tr>
@@ -39,7 +40,22 @@
             </tr>
         </table>
     </form>
-    </dinput-box>
-
+    </div>
+    <footer class="footer">
+        <div class="connect-text">Connect with us</div>
+        <div class="centerdiv"></div>
+    
+            <a href="www.instagram.com/srmuaa/?hl=en"><i class="fab fa-2x fa-instagram"></i></a>
+            
+            <a href="www.linkedin.com/school/srmuaa/"><i class="fab fa-2x fa-linkedin-in"></i></a>
+            
+            <a href="www.facebook.com/srmuaa"><i class="fab fa-2x fa-facebook"></i></a>
+            
+            <a href="#"><i class="fab fa-2x fa-twitter"></i></a>
+            
+            <a href="www.youtube.com/channel/UCt3U8LCUn6BA6E3ksv1wlcg"><i class="fab fa-2x fa-youtube"></i></a>
+            
+        </div>
+    </footer>
 </body>
 </html>
